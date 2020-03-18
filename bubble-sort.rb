@@ -1,6 +1,6 @@
 def bubble_sort(arr)
   sorted = true
-while sorted
+  while sorted
 
     sorted = false
 
@@ -12,7 +12,7 @@ while sorted
         sorted = true
       end
     end
-end
+  end
   arr
 end
 
