@@ -7,6 +7,8 @@ def bubble_sort(arr)
     (arr.length - 1).times do |i|;
       if arr[i] > arr[i + 1]
 
+        next unless arr[i]
+
         arr[i], arr[i + 1] = arr[i + 1], arr[i]
 
         sorted = true
