@@ -18,4 +18,5 @@ end
 
 a = [10, 1, 2, 5, 3, 6, 4, 9, 8, 10, 4]
 
-bubble_sort(a)
+a = bubble_sort(a)
+puts a
