@@ -16,8 +16,8 @@ Linkedin:
 
 👤 Kotoku kennedy
 Github: (https://github.com/kotoku-code)
-Twitter:[@kennedykotoku]
-Linkedin:(www.linkedin.com/in/kotoku-kennedy-5b04a9128)
+Twitter: 
+Linkedin:
 
 🤝 Contributing
 Contributions, issues and feature requests are welcome!
