@@ -4,15 +4,14 @@ def bubble_sort(arr)
 
     sorted = false
 
-    (arr.length - 1).times do |i|;
-      if arr[i] > arr[i + 1]
+    (arr.length - 1).times do |i|
+      next unless arr[i] > arr[i + 1]
 
-        next unless arr[i]
+      next unless arr[i]
 
-        arr[i], arr[i + 1] = arr[i + 1], arr[i]
+      arr[i], arr[i + 1] = arr[i + 1], arr[i]
 
-        sorted = true
-      end
+      sorted = true
     end
   end
   arr
